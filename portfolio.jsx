@@ -373,7 +373,11 @@ export default function Portfolio() {
               >
                 LinkedIn ↗
               </a>
-              <a className="btn btn-primary" href="/Saikumar_Naddunuri_01072026.pdf" download>
+              <a
+                className="btn btn-primary"
+                href={`${import.meta.env.BASE_URL}Saikumar_Naddunuri_Resume_2026.pdf`}
+                download
+              >
                 Download Resume
               </a>
             </div>
